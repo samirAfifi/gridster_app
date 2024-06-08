@@ -1,0 +1,23 @@
+<gridster [options]="options">
+    <gridster-item [item]="this.item1" #gridsterItem>
+     
+        <app-scroll
+        [unitHeight]="unitHeight"
+            [item]="item1">
+
+        </app-scroll>
+    </gridster-item>
+	
+    <gridster-item [item]="this.item2" #gridsterItem>
+     
+       <app-presentation
+       [unitHeight]="unitHeight"
+            [item]="item1">
+       
+
+       </app-presentation>
+    </gridster-item>
+	
+  
+</gridster>
+

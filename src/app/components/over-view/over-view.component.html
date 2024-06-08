@@ -1,0 +1,45 @@
+
+<gridster [options]="options">
+    <gridster-item [item]="this.item1" #gridsterItem>
+        <app-performance
+			[unitHeight]="unitHeight"
+            [item]="item1">
+		</app-performance>
+    </gridster-item>
+	<gridster-item [item]="this.item2" #gridsterItem>
+       <app-quick
+		[unitHeight]="unitHeight"
+		[item]="item2">
+	   </app-quick>
+    </gridster-item>
+    <gridster-item [item]="this.item3" #gridsterItem>
+        <app-overall
+        [unitHeight]="unitHeight"
+		[item]="item3">
+         
+        ></app-overall>
+     </gridster-item>
+     <gridster-item [item]="this.item4" #gridsterItem>
+     <app-ration
+     [unitHeight]="unitHeight"
+     [item]="item4">
+     
+     ></app-ration>
+     </gridster-item>
+     <gridster-item [item]="this.item5" #gridsterItem>
+        <app-real-time
+        [unitHeight]="unitHeight"
+        [item]="item5">
+        ></app-real-time>
+        </gridster-item>
+        <gridster-item [item]="this.item6" #gridsterItem>
+          <app-map
+          [unitHeight]="unitHeight"
+        [item]="item6">>
+
+          </app-map>
+            </gridster-item>
+	
+  
+</gridster>
+
